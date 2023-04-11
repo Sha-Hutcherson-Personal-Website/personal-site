@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;    
+}
+
+/* home, about, and portfolio settings  */
+.body-text {
+    display: flex;
+    font-family: "Montserrat" , sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+    margin: 20px;
+    padding: 20px;
+    /* color: white; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: teal;
+    font-family: "Montserrat" , sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li {
+    list-style: none;
+
+}
+
+.heading {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links {
+     color: white;
+     text-decoration: none;
+     letter-spacing: 3px;
+     font-weight: bold;
+     font-size: 14px;
+     padding: 14px 16px;
+}
+
+.nav-links li a:hover:not(.active) {
+   background-color: lightseagreen; 
+}
+
+.nav-links li a.active {
+    background-color: #4caf50;
+}
+
+/* image, set left and right margin to auto and make it into a block element */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  body {
+    background-color: darkgray;
+  }
+
+  .facebook-icon {
+    color: blue;
+    text-decoration: none;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+
+  .linkedin-icon {
+    color: darkblue;
+    text-decoration: none;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+
+  .twitter-icon {
+    color: rgb(11, 136, 177);
+    text-decoration: none;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+
+/* Home page stuff  */
+  
+.back {
+  background-color: lightgray;
+  margin: 50px;
+  padding: 20px;
+  /* width: 30%;
+  margin 0 atuo; */
+}
+
+.back2 {
+  background-color: tan;
+  margin: 50px;
+  padding: 20px;
+}
+
+  /* About page stuff */
+  
+.container {
+  background-color: aqua;
+  margin: 50px;
+  padding: 20px;
+}
+
+.container2 {
+  background-color: red;
+  margin: 50px;
+  padding: 20px;
+ }
+
+ .container3 {
+  background-color: yellow;
+  margin: 50px;
+  padding: 20px;
+ }
+
+ /* Portfolio page stuff */
+
+ .portbox {
+    background-color: white;
+    margin: 50px;
+    padding: 20px;
+ }
+
+ .portbox2 {
+    background-color: white;
+    margin: 50px;
+    padding: 20px;
+ }
+
+ .portbox3 {
+    background-color: white;
+    margin: 50px;
+    padding: 20px;
+ }
+ 
