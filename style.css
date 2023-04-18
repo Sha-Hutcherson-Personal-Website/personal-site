@@ -112,38 +112,41 @@ img {
 /* Home page stuff  */
   
 .back {
-  background-color: lightgray;
+  /* background-color: white; */
   margin: 50px;
-  padding: 20px;
+  padding: 20px;  
   /* width: 30%;
   margin 0 atuo; */
 }
 
 .back2 {
-  background-color: tan;
+  background-color: gray;
   margin: 50px;
   padding: 20px;
 }
 
   /* About page stuff */
-  
+
+ /* photo One  */
 .container {
-  background-color: aqua;
+  background-color: white;
   margin: 50px;
   padding: 20px;
 }
 
+/* photo two */
 .container2 {
-  background-color: red;
+  background-color: white;
   margin: 50px;
   padding: 20px;
- }
+}
 
+/* photo three */
  .container3 {
-  background-color: yellow;
+  background-color: white;
   margin: 50px;
   padding: 20px;
- }
+}
 
  /* Portfolio page stuff */
 
@@ -151,17 +154,22 @@ img {
     background-color: white;
     margin: 50px;
     padding: 20px;
- }
+}
 
  .portbox2 {
     background-color: white;
     margin: 50px;
     padding: 20px;
- }
+}
 
  .portbox3 {
     background-color: white;
     margin: 50px;
     padding: 20px;
- }
- 
+}
+
+/* Using CSS Grid for footer */
+footer {  
+  background: lightseagreen;
+  grid-template-rows: 60px;  
+}
